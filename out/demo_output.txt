@@ -1,0 +1,47 @@
+
+== The founder's morning (imperfect.co/blog/welcome), replayed on synthetic data
+   Sat 30 Jan: Florence → Mexico City, 4.6 h sleep, sore throat. Plan: Long 115 min
+   static plan:    Long 115 min
+   catch-up coach: Easy 45 min  ['LOW_HRV']
+   reroute:        Yoga / mobility 30 min
+                     SICK_ABOVE_NECK: congestion, sore throat: easy 30 min at most, or rest
+                     JET_LAG: first morning after a 8 h time-zone change
+                     SHORT_SLEEP: slept 4.6 h
+                   → Long 115 min moved to Sun 31 Jan, only if you're symptom-free and you sleep at least 6 h; re-checked that morning (replaces easy 60 min)
+   next morning (throat clear, 7+ h sleep): Long 115 min moved from Sat 30 Jan
+
+== Guard on a model's proposal: "'Stay on track for your 50k, get out for nearly two hours.'" → MODIFY: Yoga / mobility 30 min
+     SICK_ABOVE_NECK: congestion, sore throat: easy 30 min at most, or rest
+     JET_LAG: first morning after a 8 h time-zone change
+     SHORT_SLEEP: slept 4.6 h
+
+== 10 scripted days (expected answers written first)
+   [PASS] Florence → Mexico City, 4.6 h sleep, sore throat
+        plan Long 115 min | static Long 115 min | catch-up Easy 45 min ['LOW_HRV'] | reroute Yoga / mobility 30 min ['SICK_ABOVE_NECK', 'JET_LAG', 'SHORT_SLEEP']
+   [PASS] Garmin → Apple Watch 3 days ago (RMSSD → SDNN)
+        plan Intervals 70 min | static Intervals 70 min | catch-up Intervals 84 min ['GREEN_LIGHT'] | reroute Intervals 70 min []
+   [PASS] Every run arrives from Garmin, Strava and Apple Health
+        plan Tempo 60 min | static Tempo 60 min | catch-up Rest ['OVERREACHING'] | reroute Tempo 60 min []
+   [PASS] Watch on the charger last night (no sleep data)
+        plan Long 115 min | static Long 115 min | catch-up Rest ['SLEEP_DEBT'] | reroute Long 115 min []
+   [PASS] Athlete in Tokyo (UTC+9): sleep dated by UTC lands on the wrong day
+        plan Intervals 55 min | static Intervals 55 min | catch-up Rest ['SLEEP_DEBT'] | reroute Intervals 55 min []
+   [PASS] Work trip at home: Mon–Fri missed, Saturday long run
+        plan Long 140 min | static Long 140 min | catch-up Long 215 min ['MAKE_UP'] | reroute Long 140 min []
+   [PASS] Fever Sat–Mon, symptom-free this morning, intervals planned
+        plan Intervals 70 min | static Intervals 70 min | catch-up Long 195 min ['MAKE_UP'] | reroute Easy 45 min ['RETURN_AFTER_ILLNESS']
+   [PASS] Two genuinely bad nights: 4.8 h, HRV down
+        plan Tempo 60 min | static Tempo 60 min | catch-up Easy 45 min ['LOW_HRV'] | reroute Yoga / mobility 30 min ['SHORT_SLEEP', 'LOW_HRV']
+   [PASS] Nothing wrong: do the long run
+        plan Long 125 min | static Long 125 min | catch-up Long 125 min [] | reroute Long 125 min []
+   [PASS] AQI 185 (wildfire smoke)
+        plan Intervals 55 min | static Intervals 55 min | catch-up Intervals 55 min [] | reroute Intervals 55 min (indoors) ['AIR_QUALITY']
+
+== Held-out: 20 random seasons (seeds 6-25)
+   static plan          sick-day hard  80 · jet-lag keys  29 · short-sleep keys  73 · back-to-back   0 · ramp days  16 · fitness 58.1
+   catch-up coach       sick-day hard  62 · jet-lag keys  28 · short-sleep keys  49 · back-to-back 124 · ramp days  73 · fitness 52.0
+   reroute (raw data)   sick-day hard   0 · jet-lag keys   0 · short-sleep keys   0 · back-to-back   0 · ramp days 101 · fitness 45.6
+   reroute              sick-day hard   0 · jet-lag keys   0 · short-sleep keys   0 · back-to-back   0 · ramp days   4 · fitness 53.2
+   same reroute logic, raw vs clean data: 576 different decisions
+
+wrote out/report.html, out/report.json

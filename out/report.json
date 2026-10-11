@@ -1,0 +1,325 @@
+{
+ "founder": {
+  "date": "Sat 30 Jan",
+  "planned": "Long 115 min",
+  "static": "Long 115 min",
+  "catchup": "Easy 45 min",
+  "reroute": "Yoga / mobility 30 min",
+  "reasons": [
+   [
+    "SICK_ABOVE_NECK",
+    "congestion, sore throat: easy 30 min at most, or rest"
+   ],
+   [
+    "JET_LAG",
+    "first morning after a 8 h time-zone change"
+   ],
+   [
+    "SHORT_SLEEP",
+    "slept 4.6 h"
+   ]
+  ],
+  "note": "Long 115 min moved to Sun 31 Jan, only if you're symptom-free and you sleep at least 6 h; re-checked that morning (replaces easy 60 min)",
+  "followup": "Long 115 min"
+ },
+ "guard": {
+  "proposal": "LLM: 'Stay on track for your 50k, get out for nearly two hours.'",
+  "verdict": "MODIFY",
+  "allowed": "Yoga / mobility 30 min",
+  "reasons": [
+   [
+    "SICK_ABOVE_NECK",
+    "congestion, sore throat: easy 30 min at most, or rest"
+   ],
+   [
+    "JET_LAG",
+    "first morning after a 8 h time-zone change"
+   ],
+   [
+    "SHORT_SLEEP",
+    "slept 4.6 h"
+   ]
+  ]
+ },
+ "scenarios": [
+  {
+   "id": "founder-morning",
+   "title": "Florence \u2192 Mexico City, 4.6 h sleep, sore throat",
+   "planned": "Long 115 min",
+   "static": [
+    "Long 115 min",
+    []
+   ],
+   "catchup": [
+    "Easy 45 min",
+    [
+     "LOW_HRV"
+    ]
+   ],
+   "reroute": [
+    "Yoga / mobility 30 min",
+    [
+     "SICK_ABOVE_NECK",
+     "JET_LAG",
+     "SHORT_SLEEP"
+    ]
+   ],
+   "note": "Long 115 min moved to Sun 31 Jan, only if you're symptom-free and you sleep at least 6 h; re-checked that morning (replaces easy 60 min)",
+   "pass": true,
+   "fails": []
+  },
+  {
+   "id": "device-switch",
+   "title": "Garmin \u2192 Apple Watch 3 days ago (RMSSD \u2192 SDNN)",
+   "planned": "Intervals 70 min",
+   "static": [
+    "Intervals 70 min",
+    []
+   ],
+   "catchup": [
+    "Intervals 84 min",
+    [
+     "GREEN_LIGHT"
+    ]
+   ],
+   "reroute": [
+    "Intervals 70 min",
+    []
+   ],
+   "note": "",
+   "pass": true,
+   "fails": []
+  },
+  {
+   "id": "triple-sync",
+   "title": "Every run arrives from Garmin, Strava and Apple Health",
+   "planned": "Tempo 60 min",
+   "static": [
+    "Tempo 60 min",
+    []
+   ],
+   "catchup": [
+    "Rest",
+    [
+     "OVERREACHING"
+    ]
+   ],
+   "reroute": [
+    "Tempo 60 min",
+    []
+   ],
+   "note": "",
+   "pass": true,
+   "fails": []
+  },
+  {
+   "id": "watch-off",
+   "title": "Watch on the charger last night (no sleep data)",
+   "planned": "Long 115 min",
+   "static": [
+    "Long 115 min",
+    []
+   ],
+   "catchup": [
+    "Rest",
+    [
+     "SLEEP_DEBT"
+    ]
+   ],
+   "reroute": [
+    "Long 115 min",
+    []
+   ],
+   "note": "",
+   "pass": true,
+   "fails": []
+  },
+  {
+   "id": "tokyo",
+   "title": "Athlete in Tokyo (UTC+9): sleep dated by UTC lands on the wrong day",
+   "planned": "Intervals 55 min",
+   "static": [
+    "Intervals 55 min",
+    []
+   ],
+   "catchup": [
+    "Rest",
+    [
+     "SLEEP_DEBT"
+    ]
+   ],
+   "reroute": [
+    "Intervals 55 min",
+    []
+   ],
+   "note": "",
+   "pass": true,
+   "fails": []
+  },
+  {
+   "id": "missed-week",
+   "title": "Work trip at home: Mon\u2013Fri missed, Saturday long run",
+   "planned": "Long 140 min",
+   "static": [
+    "Long 140 min",
+    []
+   ],
+   "catchup": [
+    "Long 215 min",
+    [
+     "MAKE_UP"
+    ]
+   ],
+   "reroute": [
+    "Long 140 min",
+    []
+   ],
+   "note": "",
+   "pass": true,
+   "fails": []
+  },
+  {
+   "id": "after-fever",
+   "title": "Fever Sat\u2013Mon, symptom-free this morning, intervals planned",
+   "planned": "Intervals 70 min",
+   "static": [
+    "Intervals 70 min",
+    []
+   ],
+   "catchup": [
+    "Long 195 min",
+    [
+     "MAKE_UP"
+    ]
+   ],
+   "reroute": [
+    "Easy 45 min",
+    [
+     "RETURN_AFTER_ILLNESS"
+    ]
+   ],
+   "note": "Intervals 70 min dropped: no safe slot this week. Not stacked onto another day.",
+   "pass": true,
+   "fails": []
+  },
+  {
+   "id": "bad-nights",
+   "title": "Two genuinely bad nights: 4.8 h, HRV down",
+   "planned": "Tempo 60 min",
+   "static": [
+    "Tempo 60 min",
+    []
+   ],
+   "catchup": [
+    "Easy 45 min",
+    [
+     "LOW_HRV"
+    ]
+   ],
+   "reroute": [
+    "Yoga / mobility 30 min",
+    [
+     "SHORT_SLEEP",
+     "LOW_HRV"
+    ]
+   ],
+   "note": "Tempo 60 min moved to Tue 23 Feb, only if you sleep at least 6 h; re-checked that morning (replaces intervals 75 min, which is dropped)",
+   "pass": true,
+   "fails": []
+  },
+  {
+   "id": "normal-day",
+   "title": "Nothing wrong: do the long run",
+   "planned": "Long 125 min",
+   "static": [
+    "Long 125 min",
+    []
+   ],
+   "catchup": [
+    "Long 125 min",
+    []
+   ],
+   "reroute": [
+    "Long 125 min",
+    []
+   ],
+   "note": "",
+   "pass": true,
+   "fails": []
+  },
+  {
+   "id": "bad-air",
+   "title": "AQI 185 (wildfire smoke)",
+   "planned": "Intervals 55 min",
+   "static": [
+    "Intervals 55 min",
+    []
+   ],
+   "catchup": [
+    "Intervals 55 min",
+    []
+   ],
+   "reroute": [
+    "Intervals 55 min (indoors)",
+    [
+     "AIR_QUALITY"
+    ]
+   ],
+   "note": "",
+   "pass": true,
+   "fails": []
+  }
+ ],
+ "heldout": {
+  "static plan": {
+   "sick_hard": 80,
+   "return_too_fast": 10,
+   "jetlag_key": 29,
+   "short_sleep_key": 73,
+   "back_to_back_keys": 0,
+   "ramp_breach_days": 16,
+   "long_150_done": 39,
+   "fitness_ctl": 58.1,
+   "key_sessions_done": 1182,
+   "key_sessions_planned": 1240
+  },
+  "catch-up coach": {
+   "sick_hard": 62,
+   "return_too_fast": 9,
+   "jetlag_key": 28,
+   "short_sleep_key": 49,
+   "back_to_back_keys": 124,
+   "ramp_breach_days": 73,
+   "long_150_done": 108,
+   "fitness_ctl": 52.0,
+   "key_sessions_done": 980,
+   "key_sessions_planned": 1240
+  },
+  "reroute (raw data)": {
+   "sick_hard": 0,
+   "return_too_fast": 0,
+   "jetlag_key": 0,
+   "short_sleep_key": 0,
+   "back_to_back_keys": 0,
+   "ramp_breach_days": 101,
+   "long_150_done": 30,
+   "fitness_ctl": 45.6,
+   "key_sessions_done": 790,
+   "key_sessions_planned": 1240
+  },
+  "reroute": {
+   "sick_hard": 0,
+   "return_too_fast": 0,
+   "jetlag_key": 0,
+   "short_sleep_key": 0,
+   "back_to_back_keys": 0,
+   "ramp_breach_days": 4,
+   "long_150_done": 37,
+   "fitness_ctl": 53.2,
+   "key_sessions_done": 1050,
+   "key_sessions_planned": 1240
+  },
+  "flips_raw_vs_clean": 576,
+  "seasons": 20
+ }
+}
