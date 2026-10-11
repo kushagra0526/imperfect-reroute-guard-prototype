@@ -1,0 +1,311 @@
+{
+ "summary": {
+  "static plan": {
+   "sick_hard": 23,
+   "return_too_fast": 3,
+   "jetlag_key": 4,
+   "short_sleep_key": 16,
+   "back_to_back_keys": 0,
+   "ramp_breach_days": 18,
+   "long_150_done": 9,
+   "fitness_ctl": 57.4,
+   "key_sessions_done": 288,
+   "key_sessions_planned": 310
+  },
+  "catch-up coach": {
+   "sick_hard": 20,
+   "return_too_fast": 2,
+   "jetlag_key": 6,
+   "short_sleep_key": 12,
+   "back_to_back_keys": 36,
+   "ramp_breach_days": 16,
+   "long_150_done": 33,
+   "fitness_ctl": 61.8,
+   "key_sessions_done": 294,
+   "key_sessions_planned": 310
+  },
+  "reroute (raw data)": {
+   "sick_hard": 0,
+   "return_too_fast": 0,
+   "jetlag_key": 0,
+   "short_sleep_key": 0,
+   "back_to_back_keys": 0,
+   "ramp_breach_days": 33,
+   "long_150_done": 7,
+   "fitness_ctl": 46.2,
+   "key_sessions_done": 223,
+   "key_sessions_planned": 310
+  },
+  "reroute": {
+   "sick_hard": 0,
+   "return_too_fast": 0,
+   "jetlag_key": 0,
+   "short_sleep_key": 0,
+   "back_to_back_keys": 0,
+   "ramp_breach_days": 0,
+   "long_150_done": 7,
+   "fitness_ctl": 51.8,
+   "key_sessions_done": 250,
+   "key_sessions_planned": 310
+  },
+  "flips_raw_vs_clean": 111,
+  "seasons": 5
+ },
+ "per_seed": {
+  "1": {
+   "static plan": {
+    "sick_hard": 3,
+    "return_too_fast": 0,
+    "jetlag_key": 1,
+    "short_sleep_key": 3,
+    "back_to_back_keys": 0,
+    "ramp_breach_days": 0,
+    "long_150_done": 1,
+    "fitness_ctl": 56.7,
+    "key_sessions_done": 58,
+    "key_sessions_planned": 62
+   },
+   "catch-up coach": {
+    "sick_hard": 3,
+    "return_too_fast": 0,
+    "jetlag_key": 2,
+    "short_sleep_key": 3,
+    "back_to_back_keys": 7,
+    "ramp_breach_days": 5,
+    "long_150_done": 8,
+    "fitness_ctl": 61.8,
+    "key_sessions_done": 59,
+    "key_sessions_planned": 62
+   },
+   "reroute (raw data)": {
+    "sick_hard": 0,
+    "return_too_fast": 0,
+    "jetlag_key": 0,
+    "short_sleep_key": 0,
+    "back_to_back_keys": 0,
+    "ramp_breach_days": 4,
+    "long_150_done": 1,
+    "fitness_ctl": 47.1,
+    "key_sessions_done": 47,
+    "key_sessions_planned": 62
+   },
+   "reroute": {
+    "sick_hard": 0,
+    "return_too_fast": 0,
+    "jetlag_key": 0,
+    "short_sleep_key": 0,
+    "back_to_back_keys": 0,
+    "ramp_breach_days": 0,
+    "long_150_done": 1,
+    "fitness_ctl": 51.1,
+    "key_sessions_done": 53,
+    "key_sessions_planned": 62
+   },
+   "flips_raw_vs_clean": 23
+  },
+  "2": {
+   "static plan": {
+    "sick_hard": 3,
+    "return_too_fast": 0,
+    "jetlag_key": 1,
+    "short_sleep_key": 2,
+    "back_to_back_keys": 0,
+    "ramp_breach_days": 3,
+    "long_150_done": 2,
+    "fitness_ctl": 58.0,
+    "key_sessions_done": 57,
+    "key_sessions_planned": 62
+   },
+   "catch-up coach": {
+    "sick_hard": 3,
+    "return_too_fast": 0,
+    "jetlag_key": 1,
+    "short_sleep_key": 3,
+    "back_to_back_keys": 6,
+    "ramp_breach_days": 4,
+    "long_150_done": 9,
+    "fitness_ctl": 62.1,
+    "key_sessions_done": 57,
+    "key_sessions_planned": 62
+   },
+   "reroute (raw data)": {
+    "sick_hard": 0,
+    "return_too_fast": 0,
+    "jetlag_key": 0,
+    "short_sleep_key": 0,
+    "back_to_back_keys": 0,
+    "ramp_breach_days": 13,
+    "long_150_done": 2,
+    "fitness_ctl": 45.5,
+    "key_sessions_done": 41,
+    "key_sessions_planned": 62
+   },
+   "reroute": {
+    "sick_hard": 0,
+    "return_too_fast": 0,
+    "jetlag_key": 0,
+    "short_sleep_key": 0,
+    "back_to_back_keys": 0,
+    "ramp_breach_days": 0,
+    "long_150_done": 2,
+    "fitness_ctl": 53.7,
+    "key_sessions_done": 50,
+    "key_sessions_planned": 62
+   },
+   "flips_raw_vs_clean": 26
+  },
+  "3": {
+   "static plan": {
+    "sick_hard": 6,
+    "return_too_fast": 1,
+    "jetlag_key": 0,
+    "short_sleep_key": 5,
+    "back_to_back_keys": 0,
+    "ramp_breach_days": 10,
+    "long_150_done": 2,
+    "fitness_ctl": 54.9,
+    "key_sessions_done": 55,
+    "key_sessions_planned": 62
+   },
+   "catch-up coach": {
+    "sick_hard": 6,
+    "return_too_fast": 0,
+    "jetlag_key": 2,
+    "short_sleep_key": 3,
+    "back_to_back_keys": 9,
+    "ramp_breach_days": 0,
+    "long_150_done": 7,
+    "fitness_ctl": 63.3,
+    "key_sessions_done": 60,
+    "key_sessions_planned": 62
+   },
+   "reroute (raw data)": {
+    "sick_hard": 0,
+    "return_too_fast": 0,
+    "jetlag_key": 0,
+    "short_sleep_key": 0,
+    "back_to_back_keys": 0,
+    "ramp_breach_days": 2,
+    "long_150_done": 1,
+    "fitness_ctl": 43.1,
+    "key_sessions_done": 41,
+    "key_sessions_planned": 62
+   },
+   "reroute": {
+    "sick_hard": 0,
+    "return_too_fast": 0,
+    "jetlag_key": 0,
+    "short_sleep_key": 0,
+    "back_to_back_keys": 0,
+    "ramp_breach_days": 0,
+    "long_150_done": 1,
+    "fitness_ctl": 47.9,
+    "key_sessions_done": 45,
+    "key_sessions_planned": 62
+   },
+   "flips_raw_vs_clean": 20
+  },
+  "4": {
+   "static plan": {
+    "sick_hard": 5,
+    "return_too_fast": 1,
+    "jetlag_key": 2,
+    "short_sleep_key": 4,
+    "back_to_back_keys": 0,
+    "ramp_breach_days": 5,
+    "long_150_done": 2,
+    "fitness_ctl": 59.8,
+    "key_sessions_done": 61,
+    "key_sessions_planned": 62
+   },
+   "catch-up coach": {
+    "sick_hard": 3,
+    "return_too_fast": 1,
+    "jetlag_key": 1,
+    "short_sleep_key": 2,
+    "back_to_back_keys": 7,
+    "ramp_breach_days": 5,
+    "long_150_done": 5,
+    "fitness_ctl": 59.5,
+    "key_sessions_done": 59,
+    "key_sessions_planned": 62
+   },
+   "reroute (raw data)": {
+    "sick_hard": 0,
+    "return_too_fast": 0,
+    "jetlag_key": 0,
+    "short_sleep_key": 0,
+    "back_to_back_keys": 0,
+    "ramp_breach_days": 11,
+    "long_150_done": 2,
+    "fitness_ctl": 47.0,
+    "key_sessions_done": 48,
+    "key_sessions_planned": 62
+   },
+   "reroute": {
+    "sick_hard": 0,
+    "return_too_fast": 0,
+    "jetlag_key": 0,
+    "short_sleep_key": 0,
+    "back_to_back_keys": 0,
+    "ramp_breach_days": 0,
+    "long_150_done": 2,
+    "fitness_ctl": 55.3,
+    "key_sessions_done": 53,
+    "key_sessions_planned": 62
+   },
+   "flips_raw_vs_clean": 23
+  },
+  "5": {
+   "static plan": {
+    "sick_hard": 6,
+    "return_too_fast": 1,
+    "jetlag_key": 0,
+    "short_sleep_key": 2,
+    "back_to_back_keys": 0,
+    "ramp_breach_days": 0,
+    "long_150_done": 2,
+    "fitness_ctl": 57.6,
+    "key_sessions_done": 57,
+    "key_sessions_planned": 62
+   },
+   "catch-up coach": {
+    "sick_hard": 5,
+    "return_too_fast": 1,
+    "jetlag_key": 0,
+    "short_sleep_key": 1,
+    "back_to_back_keys": 7,
+    "ramp_breach_days": 2,
+    "long_150_done": 4,
+    "fitness_ctl": 62.3,
+    "key_sessions_done": 59,
+    "key_sessions_planned": 62
+   },
+   "reroute (raw data)": {
+    "sick_hard": 0,
+    "return_too_fast": 0,
+    "jetlag_key": 0,
+    "short_sleep_key": 0,
+    "back_to_back_keys": 0,
+    "ramp_breach_days": 3,
+    "long_150_done": 1,
+    "fitness_ctl": 48.4,
+    "key_sessions_done": 46,
+    "key_sessions_planned": 62
+   },
+   "reroute": {
+    "sick_hard": 0,
+    "return_too_fast": 0,
+    "jetlag_key": 0,
+    "short_sleep_key": 0,
+    "back_to_back_keys": 0,
+    "ramp_breach_days": 0,
+    "long_150_done": 1,
+    "fitness_ctl": 51.0,
+    "key_sessions_done": 49,
+    "key_sessions_planned": 62
+   },
+   "flips_raw_vs_clean": 19
+  }
+ }
+}
